@@ -7,7 +7,7 @@
 <a href="#"><img title=" BOT MULTI DEVICE" src="https://img.shields.io/badge/WhatsApp Recode MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/saipulanuar/irwanxploit7"><img title="Author" src="https://img.shields.io/badge/Author-KINGOFBEAR-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/irwanxploit7"><img title="Author" src="https://img.shields.io/badge/Author-KINGOFBEAR-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/"><img title="Followers" src="https://img.shields.io/github/followers/saipulanuar?color=blue&style=flat-square"></a>
@@ -37,12 +37,12 @@
 <h3 align="center">Made by :</h3>
 <p align="center">
   <a href="https://github.com/saipulanuar"><img src="https://github.com/saipulanuar.png?size=128" height="128" width="128" /></a>
-  <a href="https://github.com/nurutomo"><img src="https://github.com/nurutomo.png?size=128" height="128" width="128" /></a>
+  <a href="https://github.com/irwanxploit7"><img src="https://avatars.githubusercontent.com/u/94791213?v=4" height="128" width="128" /></a>
 </p>
 
 ## Tester Bot
 * Jika kamu menemukan bug jangan lupa buka Issues
-* Info Lebih Lanjut, Chat [Owner-YukiBot](https://wa.me/6288279268363)
+* Info Lebih Lanjut, Chat [Owner-YukiBot](https://wa.me/6289653633058)
 
 ## How To Change Menu Display
 ----
@@ -158,8 +158,8 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 ```
 
 # Thanks to
- [![Nurutomo](https://github.com/Nurutomo.png?size=150)](https://github.com/Nurutomo) | [![KingOfBear](https://github.com/saipulanuar.png?size=150)](https://github.com/saipulanuar) | [![Istikmal](https://github.com/BochilGaming.png?size=150)](https://github.com/BochilGaming)
+ [![irwanxploit](https://avatars.githubusercontent.com/u/94791213?v=4)](https://github.com/irwanxploit7) | [![KingOfBBear](https://github.com/saipulanuar.png?size=150)](https://github.com/saipulanuar) | [![Istikmal](https://github.com/BochilGaming.png?size=150)](https://github.com/BochilGaming)
 ----|----|----
-[Nurutomo](https://github.com/Nurutomo) | [KingOfBear](https://github.com/saipulanuar) | [Istikmal](https://github.com/BochilGaming)
- Author | yg nambah fitur | yg punya sc
+[Irwanxploit](https://github.com/irwanxploit7) | [KingOfBear](https://github.com/saipulanuar) | [Istikmal](https://github.com/BochilGaming)
+ Yang Recode| Author | yg punya sc
 
