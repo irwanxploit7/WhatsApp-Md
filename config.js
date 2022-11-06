@@ -28,9 +28,9 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 /*============== INFO OWNER ==============*/
 global.sig = 'https://instagram.com/wxoershinet'
-global.syt = 'https://youtube.com/channel/UCt3l1WpgbZ78ZvzanK4N3XQ'
+global.syt = 'https://youtu.be/5bo_DdeQJgo'
 global.sgh = 'https://github.com/irwanxploit7'
-global.sgc = 'https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL'
+global.sgc = 'https://chat.whatsapp.com/D9GPx43JjVt43V19DXwhwY'
 global.swa = 'wa.me/6289653633058'
 global.swb = 'https://'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
@@ -41,18 +41,18 @@ global.povo = '089653633058'
 global.pgopay = '089653633058'
 global.ppulsa = '089653633058'
 global.ppulsa2 = '089653633058'
-global.psaweria = 'https://saweria.co/irwanshaleh340'
+global.psaweria = 'https://saweria.co/irwanshaleh34'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '18597405633'
+global.nomorbot = '14438554284'
 global.nomorown = '6289653633058'
-global.namebot = 'coreラ'
-global.nameown = 'Coreter ×፝֟͜×'
+global.namebot = 'Saveroo ラ'
+global.nameown = 'ᴹᴿ᭄ Saverooo ×፝֟͜×'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6289653633058', 'Coreter ×፝֟͜×', 'true']
+  ['6289653633058', 'ᴹᴿ᭄ Savero ×፝֟͜×', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -70,6 +70,7 @@ global.APIs = { // API Prefix
   dhnjing: 'https://dhnjing.xyz',
   neoxr: 'https://neoxr-api.herokuapp.com',
   zeks: 'https://api.zeks.me',
+  bear: 'https://saipulanuar.ga',
   pencarikode: 'https://pencarikode.xyz',
   ana: 'https://anabotofc.herokuapp.com/',
   amel: 'https://melcanz.com',
@@ -85,6 +86,7 @@ global.APIKeys = { // APIKey Here
   'https://anabotofc.herokuapp.com/': 'AnaBot',
   'https://api.lolhuman.xyz': 'Xynoz',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://saipulanuar.ga/': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
   'https://melcanz.com': 'wEDTUsWj',
@@ -95,20 +97,25 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
+/*============== APIKEY ================*/
+global.bear = 'VBkM7rbU'
+
+
 /*============== WATERMARK ==============*/
-global.wm = 'Coreラ | By Coreter ×፝֟͜×' //Main Watermark
-global.wm2 = 'Coreter ×፝֟͜×'
-global.wm3 = 'Coreラ | By Coreter ×፝֟͜×'
+global.wm = 'Saveroラ | By Savero×፝֟͜×' //Main Watermark
+global.wm2 = 'Savero ×፝֟͜×'
+global.wm3 = 'Saveroラ | By Savero ×፝֟͜×'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `Yuki Adistyラ | ʙʏ ${global.nameown}`
-global.author = 'Coreter ×፝֟͜×' 
-global.packname = 'Coreter ×፝֟͜×'
+global.titlebot = `Saverooラ | ʙʏ ${global.nameown}`
+global.author = 'Saveroo ×፝֟͜×' 
+global.packname = 'Saveroo×፝֟͜×'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
+global.ultahowner = 'Februari 23 2023'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/1ee2290eedd3330a66df8.jpg' //Main Thumbnail
+global.thumb = 'https://telegra.ph/file/6ab4daac226292a112540.jpg' //Main Thumbnail
 global.imagebot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
 global.giflogo = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
 global.giflogo2 = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
@@ -116,14 +123,14 @@ global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.botintro = 'Hallo, Kenalin saya Core BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *Coreter ×፝֟͜×* Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
+global.botintro = 'Hallo, Kenalin saya Yuki BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *ᴹᴿ᭄ King Of Bear ×፝֟͜×* Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
 global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'Si Ganteng ×፝֟͜'
+global.nameowner = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
 global.umurowner = '22'
-global.asalowner = 'Warsawa, Polandia '
-global.nomorowner = 'wa.me/6289653633058'
-global.pacarowner = 'Ga Punya Kocak🗿'
+global.asalowner = 'Amerika Serikat, New York'
+global.nomorowner = 'wa.me/6288279268363'
+global.pacarowner = 'Kepo amat sih;v'
 
 /*============== TEXT ==============*/
 global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
@@ -372,7 +379,7 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
 global.stickpack = 'ᴍᴀᴅᴇ ʙʏ'
-global.stickauth = `Wanzz`
+global.stickauth = `King Of Bear`
 
 global.multiplier = 38 // The higher, The harder levelup
 
