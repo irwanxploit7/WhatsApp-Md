@@ -174,7 +174,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const valor = './thumbnail.jpg'
     let url = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
     let flaa = pickRandom(global.flaaaaa)
-    const ultah = new Date('November 4 2022 00:00:01')
+    const ultah = new Date(`${ultahowner} 00:00:01`)
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -183,18 +183,23 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
     conn.sendButton(m.chat,
 `${wish()} ${name}
-`, text.trim(), `${flaa}All Menu`, [
+`, text.trim(), flaa, [
       [`ꜱᴇᴡᴀʙᴏᴛ`, `${usedPrefix}sewa`],
       [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
-    ], m, {
+    ], m, { 'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+'mimetype':global.dpdf,
+'fileName':'「 ᴹᴿ᭄ King Of Bear ×፝֟͜× 」',
+'fileLength':fsizedoc,
+'pageCount':fpagedoc,
+'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU',
+                        sourceUrl: 'https://youtu.be/hklv-Ysqqac',
                         mediaType: 2,
                         description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-                        title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ ᴄʀᴇᴀᴛᴇ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
-                        thumbnail: await (await fetch(giflogo2)).buffer(),
-                        mediaUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        body: `⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
+                        thumbnail: await (await fetch(thumb)).buffer(),
+                        mediaUrl: 'https://youtu.be/hklv-Ysqqac'
                         
                       }}
 })
