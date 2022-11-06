@@ -1,54 +1,104 @@
-let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let url = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
-let text = `━━ꕥ〔 *𝚂𝙴𝚆𝙰 & 𝙿𝚁𝙴𝙼𝙸𝚄𝙼* 〕ꕥ━⬣
+import fetch from 'node-fetch' 
+import moment from 'moment-timezone'
+ let handler = async(m, { conn, usedPrefix, args, command }) => { 
+     let name = db.data.users[m.sender].name 
+ let fload = {
+    key : {
+    remoteJid: 'status@broadcast',
+    participant : '0@s.whatsapp.net'
+    },
+    message: {
+    orderMessage: {
+    itemCount : 9998282719181899999,
+    status: 404,
+    surface : 404,
+    message: `${ucapan()}`,
+    orderTitle: `${ucapan()}`,
+    thumbnail:   await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
+    sellerJid: '0@s.whatsapp.net' 
+    }
+    }
+    }
+ let judul = ''
+  const sections = [ 
+                 { 
+                   "rows": [{ 
+                     "title": `Pemilik Bot`, 
+                     "description": "Nomor Pemilik Bot (owner)", 
+                     "rowId": `${usedPrefix}creator` 
+                   }, { 
+                     "title": "Syarat Ketentuan dan Peraturan", 
+                     "description": "Harap membaca Peraturan demi kenyamanan kita bersama", 
+                     "rowId": `${usedPrefix}donasi` 
+                   }, { 
+                     "title": `Group Official ${namebot} Bot`, 
+                     "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan", 
+                     "rowId": `${usedPrefix}gcbot` 
+                   }], 
+                   "title": "Informasi Bot" 
+                 }, { 
+                   "rows": [{ 
+                     "title": `Free Trial 1 Hari`, 
+                     "description": "Masukkan bot secara gratis selama 1 Hari", 
+                     "rowId": `${usedPrefix}join` 
+                     }], 
+                   "title": "────────「 Trial 」" 
+                 }, { 
+                     "rows": [{ 
+                       "title": `Permanent! Rp50.000`, 
+                       "description": "Masukkan bot ke dalam group tanpa batasann waktu!", 
+                       "rowId": ".masuk"
+                   }], 
+                     "title": "───────「 Permanent 」" 
+                 } 
+               ]
+         const listMessage = {
+      text: `*❏ SEWA BOT*
+Untuk fitur bot bisa baca menu sampai selesai ya kak, dicoba coba dulu biar tau ( Ketik *.menu* )
+Silahkan hubungi owner ( Ketik *.owner* ) jika ingin menyewa bot untuk grup chat kalian
 
-┏━ꕥ〔 𝙷𝙰𝚁𝙶𝙰 𝚂𝙴𝚆𝙰 〕
-┃
-┃✾ 15 ʜᴀʀɪ 3,5ᴋ / ɢʀᴏᴜᴘ
-┃✾ 30 ʜᴀʀɪ 7ᴋ / ɢʀᴏᴜᴘ
-┃✾ 45 ʜᴀʀɪ 10,5ᴋ / ɢʀᴏᴜᴘ
-┃✾ 60 ʜᴀʀɪ 14ᴋ / ɢʀᴏᴜᴘ
-┃✾ ᴘᴇʀᴍᴀɴᴇɴ 30ᴋ / ɢʀᴏᴜᴘ 
-┃
-┗━━ꕥ *${author}* ꕥ━⬣
-
-┏━ꕥ〔 𝙷𝙰𝚁𝙶𝙰 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 〕
-┃
-┃✾ 15 ʜᴀʀɪ 5ᴋ 
-┃✾ 30 ʜᴀʀɪ 10ᴋ 
-┃✾ 45 ʜᴀʀɪ 15ᴋ 
-┃✾ 60 ʜᴀʀɪ 20ᴋ 
-┃✾ ᴘᴇʀᴍᴀɴᴇɴ 30ᴋ
-┃
-┗━━ꕥ *${author}* ꕥ━⬣
-
-┏━ꕥ〔 ꜰɪᴛᴜʀ 430+ 〕
-┃
-┃✾ ᴡᴇʟᴄᴏᴍᴇ
-┃✾ ᴋɪᴄᴋ
-┃✾ ᴀɴᴛɪʟɪɴᴋ
-┃✾ ꜱᴛɪᴋᴇʀ
-┃✾ ꜱᴏᴜɴᴅ
-┃✾ ᴀɴɪᴍᴇ
-┃✾ ꜱᴇɴᴅ ᴠɪʀᴛᴇx
-┃✾ ꜱᴇɴᴅ ʙᴜɢ
-┃✾ ɢᴀᴍᴇ ʀᴘɢ
-┃✾ ᴅʟʟ
-┃
-┗━━ꕥ *${author}* ꕥ━⬣
-`
-const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Klick untuk berlangganan', url: 'https://wa.me/6288279268363?text=Hallo admin, saya tertarik untuk menyewa bot yuki adisty'}},
-    {index: 4, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
-]
-let tm = {
-text: text,
-footer: global.wm,
-templateButtons: templateButtons,
-image: url
-}
-conn.sendMessage(m.chat, tm, m)
-}
+➠ Sewa (Join Grup) harga 50K / Permanent dan apabila bot di kick dari grup sengaja atau tidak sengaja tidak bisa di join kan lagi (Hangus).
+➠ Pembayaran saat ini hanya tersedia via Qris.
+➠ Proses transaksi seperti pada umumnya, chat owner terlebih dahulu untuk menanyakan nomor tujuan transfer setelah itu screenshot bukti pembayaran.
+➠ *Penting!* simpan nomor owner dan join ke dalam grup official dibawah untuk mengetahui update nomor bot terbaru apabila ter-banned.
+➠ Bot bisa di pindah pin
+dah Grup (berlaku untuk yang sewa) kedalam grup lain (hanya 1 grup)
+➠ Maaf untuk yang sudah Transfer tidak dapat di Refund/dibatalkan
+➠ Membeli/Sewa berarti Setuju dalam Persyaratan tersebut`,
+      footer: wm,
+      mentions: await conn.parseMention(judul),
+      title: judul.trim(),
+      buttonText: "Click Here",
+      sections
+    }
+    return conn.sendMessage(m.chat, listMessage, { quoted: fload, mentions: await conn.parseMention(judul), contextInfo: { externalAdReply :{ 
+     showAdAttribution: true, 
+      }} 
+   })
+    
+    }
 handler.command = /^(sewabot|sewa|belibot|buyprem)$/i
 
-export default handler
+export default handler 
+
+function ucapan() {
+    let res = ''
+  const time = moment.tz('Asia/Jakarta').format('HH')
+  res = ('Hi')
+  if (time >= 0) {
+    res = ('Selamat Malam🌃')
+  }
+  if (time >= 4) {
+    res = ('Selamat Pagi🌄')
+  }
+  if (time >= 12) {
+    res = ('Selamat Siang☀️')
+  }
+  if (time >= 16) {
+    res = ('️ Selamat Malam🌇')
+  }
+  if (time >= 23) {
+    res = ('Selamat Malam🌙')
+  }
+  return res
+}
